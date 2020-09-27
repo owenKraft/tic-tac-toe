@@ -1,0 +1,62 @@
+body {
+    display: grid;
+    place-items: center;
+    font-family: motor, monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    margin: 2px;
+    background-color: #F7F7F7;
+    border: 2px solid transparent;
+    font-size:  25px;
+    text-overflow: ellipsis;
+    padding: 0px;
+    vertical-align: top;
+}
+
+.btn-row{
+    display: flex;
+    flex-direction: row;
+}
+
+#hello, #desc, #scoreText {
+    font-size: 24px;
+    margin: 5px;
+}
+
+#nameInput {
+    background-color: #F7F7F7;
+    border-bottom: 1px darkgray solid;
+}
+
+#desc, #scoreText {
+    color: darkgray;
+}
+
+#gameText {
+    font-size:40px;
+    margin: 5px;
+}
+
+#botEmoji {
+    font-size: 60px;
+    margin: 5px;
+}
+
+#restartBtn {
+    height: 50px;
+    font-size: 15px;
+    background-color: transparent;
+}
+
+#gameArea {
+    margin: 5px;
+}
+
+#restartBtn:hover {
+    border-bottom: 1px black solid;
+}
